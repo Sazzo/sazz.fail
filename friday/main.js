@@ -3,6 +3,7 @@ const friday = date.getDay()
 
 if(!friday === 5) {
   const renatinho = document.getElementById("renatinho").style.display = "none"
+  const renatinho = document.getElementById("notPlay").style.display = "none"
   }
 if(friday === 5) {
    const musica = document.getElementById("animesong")
