@@ -1,0 +1,48 @@
+body {
+  background-color: #292929;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+}
+
+.torisuPlayer {
+  color: white;
+  display: flex;
+  padding: 35px;
+}
+
+.strangerTitle {
+  text-align: center;
+  margin: 10px;
+  font-size: 36px;
+  padding: 25px;
+  }
+
+.albumList {
+  padding: 30px;
+  background-color: #262625;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.tisanaTypes {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: 1 / 4;
+}
+
+.songs {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 1em;
+}
+
+.suniArtist {
+  margin: 35px
+}
+
+
