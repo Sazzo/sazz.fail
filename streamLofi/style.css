@@ -11,8 +11,8 @@ main {
 main:before {
   content: "";
   position: fixed;
-  left: -5%;
-  top: -5%;
+  left: -10%;
+  top: -10%;
   right: 0;
   z-index: -1;
 
@@ -22,8 +22,8 @@ filter: blur(30px);
   -webkit-filter: blur(30px);
 
   /* Full height */
-  height: 110%;
-  width: 110%;
+  height: 120%;
+  width: 120%;
 
   /* Center and scale the image nicely */
   background-position: center;
