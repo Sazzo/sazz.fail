@@ -17,10 +17,7 @@ main:before {
   z-index: -1;
 
   display: block;
-  background-image: url('assets/streetBackground.jpg');
-filter: blur(30px);
-  -webkit-filter: blur(30px);
-
+  background-image: url('assets/streetBlur.png');
   /* Full height */
   height: 120%;
   width: 120%;
