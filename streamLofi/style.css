@@ -88,3 +88,69 @@ filter: blur(30px);
   padding: 150px;
   margin: 60px;
 }
+
+
+
+.userIcon {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.userImage {
+  position: relative;
+  top: -335px;
+  left: 25px;
+}
+
+.userIB {
+  position: relative;
+  top: -175px;
+  left: 0px;
+}
+
+.username {
+  color: white;
+  top: -240px;
+  margin-left: 250px;
+  position: relative;
+  font-size: 38px;
+}
+
+.userBadges {
+  margin-left: 250px;
+  top: -220px;
+  position: relative;
+}
+
+.box {
+  background-color: #1b171f;
+  max-width: 400px;
+  max-height: 80%;
+  margin-left: 40px;
+  position: relative;
+  top: -280px;
+  color: white;
+}
+
+.box2 {
+  background-color: #1b171f;
+  max-width: 480px;
+  max-height: 60%;
+  margin-left: 40px;
+  position: relative;
+  top: -280px;
+  color: white;
+  border-radius: 5px;
+}
+
+.number {
+  color: #e8336f;
+  background-color: transparent;
+  font-size: 45px;
+}
+
+.whatThis {
+  font-size: 23px;
+  margin-left: 14px;
+}
