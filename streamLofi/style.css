@@ -1,9 +1,35 @@
-body {
-  background-color: #292929;
+body, html
   font-family: 'Ubuntu', sans-serif;
   color: white;
+  height: 100%;
 }
 
+main {
+  overflow: auto;
+  position: relative;
+}
+main:before {
+  content: "";
+  position: fixed;
+  left: -5%;
+  top: -5%;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url('assets/streetBackground.jpg');
+filter: blur(30px);
+  -webkit-filter: blur(30px);
+
+  /* Full height */
+  height: 110%;
+  width: 110%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .torisuPlayer {
   color: white;
   display: flex;
@@ -19,10 +45,13 @@ body {
 
 .albumList {
   padding: 30px;
-  background-color: #262625;
-  border-radius: 6px;
+  background-color: #1b171f;
+  border-radius: 3px;
+  right: -5%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin: 50px;
+  color: white;
 }
 
 .tisanaTypes {
@@ -39,10 +68,23 @@ body {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 10px;
   row-gap: 1em;
+  
 }
 
 .suniArtist {
   margin: 35px
 }
 
+.nouxiFooter {
+  background-color: #262625; !important
+}
 
+.footer {
+  background-color: #262625 !important;
+  color: white;
+}
+
+.lyrioLogo {
+  padding: 150px;
+  margin: 60px;
+}
