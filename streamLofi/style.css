@@ -82,10 +82,29 @@ main:before {
 }
 
 .lyrioLogo {
-  padding: 150px;
-  margin: 60px;
+  margin-left: 200px;
+  margin-right: auto;
+  display: block;
+  top: 450px;
+  max-width: 820px;
+  position: relative;
 }
 
+.subtitle {
+  position: relative;
+  margin-left: 400px;
+  color: white;
+  font-size: 27px;
+  top: 430px;
+}
+
+.spicyButtons {
+  margin-left: 298px;
+  top: 440px;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
 
 
 .userIcon {
@@ -132,13 +151,15 @@ main:before {
 
 .box2 {
   background-color: #1b171f;
-  max-width: 480px;
+  max-width: 458px;
   max-height: 60%;
   margin-left: 40px;
   position: relative;
   top: -280px;
   color: white;
   border-radius: 5px;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .number {
@@ -149,5 +170,34 @@ main:before {
 
 .whatThis {
   font-size: 23px;
-  margin-left: 14px;
+  margin-left: 12px;
+  position: relative;
+  top: -10px;
+}
+
+.spicySearch {
+  background-color: #1b171f;
+  max-width: 398px;
+  max-height: 3.9%;
+  border-color: #27222b;
+  border-radius: 5px
+  border-top-color: #27222b;
+  border-left-color: #27222b;
+  border-top-left-radius: 5px;
+  border-right-color: #27222b;
+}
+
+input {
+  background-color: #1b171f;
+  height: 4% !important;
+  width: 99.9%;
+  border-right-color: #27222b;
+  border-color: #27222b;
+  border-bottom-left-radius: #27222b;
+  border-top-left-radius: 5px;
+  border-top-color: #27222b;
+  border-left-color: #27222b;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
 }
