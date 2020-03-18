@@ -17,7 +17,7 @@ main:before {
   z-index: -1;
 
   display: block;
-  background-image: url('assets/streetBlur.png');
+  background-image: url('https://sazz.xyz/streamLofi/assets/streetBlur.png');
   /* Full height */
   height: 120%;
   width: 120%;
@@ -175,29 +175,18 @@ main:before {
   top: -10px;
 }
 
-.spicySearch {
-  background-color: #1b171f;
-  max-width: 398px;
-  max-height: 3.9%;
-  border-color: #27222b;
-  border-radius: 5px
-  border-top-color: #27222b;
-  border-left-color: #27222b;
-  border-top-left-radius: 5px;
-  border-right-color: #27222b;
+.usernameInput {
+  position: relative;
+  width: 280px;
+  height: 50%;
+  margin-left: 350px;
+  top: 400px;
 }
 
-input {
-  background-color: #1b171f;
-  height: 4% !important;
-  width: 99.9%;
-  border-right-color: #27222b;
-  border-color: #27222b;
-  border-bottom-left-radius: #27222b;
-  border-top-left-radius: 5px;
-  border-top-color: #27222b;
-  border-left-color: #27222b;
-  border-radius: 5px;
-  color: white;
-  text-align: center;
+.passwordInput {
+  position: relative;
+  width: 280px;
+  height: 50%;
+  margin-left: 350px;
+  top: -200px;
 }
