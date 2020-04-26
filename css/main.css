@@ -1,27 +1,61 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
      
 body {
-    font-family: 'Roboto Mono', 
-    monospace;
-    color: #ffffff;
-    background-color: black;
-     }
-
-.hlink { 
-    color: #ffffff;
-    margin: 1px;
-    }
-
-h2 {
-			font-size: 70px;
-			
+    font-family: 'Ubuntu', 
+    sans-serif;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    color: white;
+}
+.background {
+    width: 100%;
+    position: relative;
+    margin-bottom: 0;
+}
+.main {
+    background: linear-gradient(180deg,#080e12,#081016 700px);
+    min-height: 800px;
+    padding-top: 130px;
+    margin: 0;
+    margin-top: -10px;
+    position: relative;
+}
+.header:before {
+    position: relative;
+}
+.title {
+    font-size: 28mm;
+    position: absolute;
+    top: 30vh;
+    left: 25vh;
+}
+.minititle {
+    font-size: 9mm;
+    position: absolute;
+    top: 35vh;
+    left: 25vh;
+}
+.contentTitle {
+    font-size: 15mm;
+    display: flex;
+    justify-content: center;
+}
+.contentParagraph {
+    font-size: mm;
+    text-align: center;
 }
 
+.socialGrid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
 
-div {
-			text-align: center;
-			position: fixed;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%);
+.colum {
+ padding-left: 31vw;
+}
+
+svg {
+    width: 100px;
+    height: 100px;
 }
