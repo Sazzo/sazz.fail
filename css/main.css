@@ -54,8 +54,11 @@ body {
 .colum {
  padding-left: 31vw;
 }
-
 svg {
     width: 100px;
     height: 100px;
+}
+
+a {
+    color: white;
 }
