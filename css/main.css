@@ -62,3 +62,36 @@ svg {
 a {
     color: white;
 }
+
+.container {
+    display: flex;
+}
+
+.cardTitle {
+    text-align: center;
+}
+
+.socialLink {
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.inside {
+    border-radius: 6px;
+    box-shadow:  2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+    padding: 1.25rem;
+    justify-content: center;
+}
+
+.black {
+    background-color: #080e12;
+}
+
+.card {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: .75rem;
+}
