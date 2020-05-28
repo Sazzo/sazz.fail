@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://sazz.fail/blog</id>
+    <title>Sazz&apos;s Blog</title>
+    <updated>2020-05-28T04:25:59.605Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://sazz.fail/blog"/>
+    <link rel="self" href="https://sazz.fail/blog/atom.xml"/>
+    <subtitle>Meu incrivel blog!</subtitle>
+    <logo>https://sazz.fail/blog/images/avatar.png</logo>
+    <icon>https://sazz.fail/blog/favicon.ico</icon>
+    <rights>All rights reserved 2020, Sazz&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Olá Mundo!]]></title>
+        <id>https://sazz.fail/blog/post/ola-mundo/</id>
+        <link href="https://sazz.fail/blog/post/ola-mundo/">
+        </link>
+        <updated>2020-05-27T17:14:13.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="oi-esse-é-o-primeiro-posttm">Oi! Esse é o primeiro post™️</h2>
+<p>Bem... ainda estou experimentando e nem sei se eu vou usar isso aqui, mas parece uma ideia boa já que eu sou um nice programador (só que não 😛)</p>
+<p>Algumas coisas legais:</p>
+<p>Twitter: https://twitter.com/FelipeSazz<br>
+Github: https://github.com/Sazzo<br>
+Discord: sazz#1660</p>
+<p>vlw flw!</p>
+]]></content>
+    </entry>
+</feed>
