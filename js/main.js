@@ -48,7 +48,7 @@ const sub = new Zdog.TextGroup({
   addTo: illo,
   font: font,
   // Pass an array as the text value for multiline text:
-  value: ["back-end developer", "anime junkie"],
+  value: ["back-end developer"],
   fontSize: 42,
   textAlign: "center",
   textBaseline: "middle",
