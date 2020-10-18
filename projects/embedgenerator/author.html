@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-       window.json = {"type":"photo","author_name":"Isso é um teste\""};
-    </script>
 </head>
 <body>
-    <pre style="word-wrap: break-word; white-space: pre-wrap;" data-folded="undefined">{"type":"photo","author_name":"Isso é um teste\""}</pre>
+    <script>
+        const json = {"type":"photo","author_name":"Isso é um teste\""};
+ 
+        const jsonstr = JSON.stringify(json)
+ 
+        document.body.innerHTML = jsonstr;
+     </script>
 </body>
 </html>
