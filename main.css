@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+}
+
+.container {
+  padding: 200px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 150px 0;
+    text-align: center;
+    display: block;
+  }
+}
+
+.avatar {
+  border-radius: 200px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .avatar {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.information {
+  text-align: center;
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+  .information {
+    font-size: 10px;
+  }
+}
+
+.name {
+  text-decoration: underline;
+  color: #ee3636;
+}
+
+.separator {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 10px;
+  opacity: 0.3;
+  width: 420px;
+  height: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .separator {
+    width: 200px;
+    margin: auto;
+  }
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 22px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .social {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.item {
+  display: flex;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.img {
+  color: #000000;
+  width: 30px;
+  height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .img {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+svg {
+  fill: #000000;
+  width: 30px;
+  height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  svg {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.projectNotice {
+  color: #000000;
+  text-align: center;
+  opacity: 0.3;
+  font-size: 15px;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .projectNotice {
+    top: 20px;
+    font-size: 10px;
+  }
+}
